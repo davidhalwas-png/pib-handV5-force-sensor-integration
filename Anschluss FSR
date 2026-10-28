@@ -19,3 +19,6 @@ Die Sensoren können sich die 3,3-V-Versorgung und GND teilen.
 
 Bei dieser Anordnung sinkt der Sensorwiderstand mit zunehmender Kraft und die Spannung am Analogeingang steigt.
 Für eine Ausgabe in Newton ist eine Kalibrierung im eingebauten Zustand erforderlich.
+
+Unter Folgendem Link ist das Datenblatt zu den verbauten Drucksensoren zu finden: 
+https://www.interlinkelectronics.com/downloads/datasheets/fsr-400-series-datasheet.pdf?
