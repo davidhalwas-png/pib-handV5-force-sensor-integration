@@ -1,0 +1,21 @@
+Verkabelung der FSR-400-Short-Kraftsensoren
+
+Die Sensoren werden jeweils zusammen mit einem festen Messwiderstand als Spannungsteiler angeschlossen.
+Zur Orientierung liegt im Git noch ein Bild wie die Sensoren angeschlossen wurden und ein Bild von der Schaltung.
+Der FSR besitzt zwei Anschlüsse und hat keine Polarität.
+
+1. Einen Sensoranschluss mit 3,3 V des Nucleo-Boards verbinden.
+
+2. Den zweiten Sensoranschluss mit einem Analogeingang, beispielsweise A0, verbinden.
+Dieser Verbindungspunkt ist der Messpunkt.
+
+3. Zwischen Messpunkt und GND einen festen Messwiderstand anschließen.
+Ein möglicher Ausgangswert ist 10 kΩ; der geeignete Wert hängt vom gewünschten Kraftbereich ab.
+
+4. Für jeden weiteren Sensor einen eigenen Spannungsteiler und einen eigenen Analogeingang verwenden.
+Die Sensoren können sich die 3,3-V-Versorgung und GND teilen.
+
+5. In der Firmware die verwendeten Eingänge als ADC-Eingänge konfigurieren und die Messwerte einlesen.
+
+Bei dieser Anordnung sinkt der Sensorwiderstand mit zunehmender Kraft und die Spannung am Analogeingang steigt.
+Für eine Ausgabe in Newton ist eine Kalibrierung im eingebauten Zustand erforderlich.
