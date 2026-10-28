@@ -10,6 +10,9 @@ Die vorhandenen CAD-Modelle wurden in Onshape bearbeitet und um Aussparungen zur
 Der Schwerpunkt meiner Arbeit liegt auf der Anpassung des vordersten Fingerglieds und der Fingerspitze.
 
 Zusätzlich ist die Verkabelung der Kraftsensoren mit dem STM32-Mikrocontroller dokumentiert. Die Beschreibung erläutert die elektrischen Anschlüsse und dient als Grundlage für den Nachbau sowie die spätere Auswertung der Sensorsignale.
+
+Im Ordner StepCAD sind alle bearbeiteten Step-Dateien hinterlegt mit denen sich die Teile direkt Drucken lassen.
+
 Zur weiteren Bearbeitung ist zu empfehlen die bestehenden OnShape Dokumente zu kopieren und in einem eigenen Dokument zu bearbeiten. Alternativ kann man mich kontaktieren damit ich weitere Personen direkt im Dokument zur Bearbeitung freischalte. 
 
 Die Konstruktion der Hand kann über folgenden Link in Onshape geöffnet werden:
